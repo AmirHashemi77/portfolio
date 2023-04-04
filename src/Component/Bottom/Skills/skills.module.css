@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 90px;
+    row-gap: 60px;
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 70px 10px;
+    margin: 0 auto;
+    
+   
+
+
+}
+
+@media screen and (max-width:700px) {
+    .container{
+       width: 90%;
+       column-gap: 40px;
+       row-gap: 10px;
+
+    }
+}
+@media screen and (max-width:1200px) {
+    .container{
+       width: 80%;
+       column-gap: 40px;
+       row-gap: 10px;
+
+    }
+}

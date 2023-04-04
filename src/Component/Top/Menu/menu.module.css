@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    width: 50%;
+    gap: 10px;
+    
+}
+@media screen and (max-width:700px) {
+        .container{
+            justify-content: center;
+        }
+}
+

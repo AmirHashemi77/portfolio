@@ -1,0 +1,24 @@
+.container{
+ text-decoration: none;
+}
+.socialMediaImg{
+    width: 65px;
+    height: 65px;
+    padding: 5px;
+    /* filter: brightness(0) contrast(0.78) opacity(0.92) ; */
+    filter: brightness(0.70) ;
+    transition: all .3s linear;
+
+}
+.socialMediaImg:hover{
+    filter: brightness(.9) ;
+
+}
+
+@media screen and (max-width:700px) {
+    .socialMediaImg{
+        width: 45px;
+        height: 45px;
+    }
+    
+}

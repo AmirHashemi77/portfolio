@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+}
+.title{
+    font-size: 1.9rem;
+    font-weight: 700;
+    color: #c0bfbf;
+}
+.about{
+    font-size: .8rem;
+    color: #c0bfbf;
+    line-height: 1rem;
+    font-weight: 700;
+    padding: 10px;
+    
+}
+@media screen and (max-width:700px) {
+    .container{
+        width: 100%;
+    }
+}
